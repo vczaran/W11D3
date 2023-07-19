@@ -32,5 +32,18 @@ ApplicationRecord.transaction do
     }) 
   end
 
+  puts "Creating benches..."
+
+  5.times do
+    Bench.create!({
+      title: "Bench",
+      description: "Good bench",
+      price: rand(10..1000),
+      seating: rand(100),
+      lat: rand(),
+      lng: rand()
+    })
+  end
+
   puts "Done!"
 end
