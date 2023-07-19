@@ -11,7 +11,7 @@ class Api::BenchesController < ApplicationController
         if @bench.save
             render json: { bench: @bench }
         else
-            render {errors: @bench.errors.full_messages }, status: 422
+            render json: {errors: @bench.errors.full_messages }, status: 422
         end
     end
 
