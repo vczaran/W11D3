@@ -1,0 +1,22 @@
+.login {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: blueviolet;
+}
+
+form {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+button {
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
